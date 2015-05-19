@@ -1,0 +1,11 @@
+
+img {
+    Border: 10px solid gray;
+    margin: -10px;
+}
+
+function onclickSquare(event)  {
+   console.log("square clicked!");
+   event.target.src = "o.png";
+
+}
